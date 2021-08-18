@@ -1,0 +1,15 @@
+.card:hover {
+    box-shadow: 2px 4px 10px #666;
+}
+
+.btn-interest:hover {
+    background-color: rgb(247, 246, 245) !important;
+}
+
+i {
+    margin: 1%;
+}
+
+ul {
+    list-style-type: circle;
+}
