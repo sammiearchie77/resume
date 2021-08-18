@@ -13,3 +13,24 @@ i {
 ul {
     list-style-type: circle;
 }
+
+@media screen and (max-width:600px) {
+    .current__tech {
+        display: block;
+    }
+    .mobile__image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile__interest {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile__tech,
+    .btn-interest {
+        margin: 2%;
+        width: 100%;
+    }
+}
